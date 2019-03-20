@@ -10,4 +10,9 @@ public class MainController {
     public String index(){
         return "index";
     }
+
+    @GetMapping(value = "second_page")
+    public String second_page(){
+        return "second_page";
+    }
 }
